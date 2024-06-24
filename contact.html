@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                YEAB
+            </h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="s-container3">
+            <div class="content3">
+                <div class="conbox">
+                    <h1 class="title">
+                        Let's <span>Chat<br></span> about realizing your project idea
+                    </h1>
+                    <div class="mini-box">
+                        <p class="description3">
+                            Contact:<br>
+                               <p class="indent"> mail me at:<a href="mailto:yeabmokonnen1@gmail.com">  yeabmokonnen1@gmail.com</a>
+                             </p>
+                            </p>
+                        
+                    </div>
+                    <div class="mini-box">
+                        <p class="description3">
+                            Socials:
+                        </p>
+                        <div class="icons">
+                            <a href="#"> <img class = "facebook" src="img/facebook copy.png" alt="" width="10%" height="10%"></a>
+                            <a href="https://www.linkedin.com/in/yeabsira-mokonnen-gebremedhen-8ba543307/"> <img src="img/linkedin.png" alt=""></a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2FYeabayy"> <img src="img/twitter.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="mini-box">
+                        <p class="description3">
+                            Hire:
+                        </p>
+                        <div class="icons">
+                            <a href="https://www.upwork.com/freelancers/~0126f36cc9e7c0f41c"> <img class = "facebook" src="img/upwork.png" alt=""></a>
+                          
+                          </div>
+                        
+                    </div>
+                </div>
+            
+            <div class="conbox">
+                    <div class="image">
+                        <img src="./img/contactme.jpg" alt="contactme">
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+<script>
+    const btn= document.getElementById("btn")
+    btn.addEventListener("click", () => {
+        document.querySelector("header ul").classList.toggle("show")
+    })
+</script>
+</html>

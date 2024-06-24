@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                YEAB
+            </h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="s-containerab">
+            <div class="contentab">
+               <div class="boxy">
+                    <span class="subtitle">
+                        Education
+                    </span>
+                    
+                    <h3 class="listing">
+                        Addis Ababa University (Extension department)
+                    </h3>
+                    <p class="description">
+                        Bsc in Software Engineering
+                    </p>
+                    <h3 class="listing">
+                        IBM STEM-POWER digital skills training
+                    </h3>
+                    <p class="description">
+                        Accreditation in project management
+                    </p>
+                    
+                </div>    
+            </div>
+
+            <div class="contentab">
+                <div class="boxy">
+                <span class="subtitle">
+                    Experience
+                </span>
+                <h3 class="listing">
+                    BizTechnologies – Addis Ababa, Ethiopia – Front end Web development intern
+                </h3>
+                <p class="description">
+                    •	Modified and made improvements to the organization’s web application.</br>
+                   
+                </p>
+                <h3 class="listing">
+                    Web3 international Bootcamp – Backend Development DEC 2023 – APR 2024
+
+                </h3>
+                <p class="description">
+                    •	developed back-end applciations for web-3 applications</br>
+                    •	Explored the fundamentals of Web3 and discover how its emerging digital technologies are transforming business..</br>
+                   
+                   
+                </p>
+                <h3 class="listing">
+                    Prodigy INFOTECH
+
+                </h3>
+                <p class="description">
+                    •	Internship in web-development</br>  
+                </p>
+            </div>
+            </div>
+
+        </div>
+        <div class="buttons2">
+            <a href="https://www.upwork.com/freelancers/~0126f36cc9e7c0f41c">Hire Me</a>
+            
+        </div>
+    </section>
+</body>
+<script>
+    const btn= document.getElementById("btn")
+    btn.addEventListener("click", () => {
+        document.querySelector("header ul").classList.toggle("show")
+    })
+</script>
+</html>
